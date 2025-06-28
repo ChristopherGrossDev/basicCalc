@@ -41,3 +41,61 @@ body{
     border-radius: 10px;
     text-align: center;
 }
+
+.button:hover {
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 5px #000;
+}
+
+#numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+#numbers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+
+
+
+body.light {
+  --bg-color: white;
+  --text-color: black;
+}
+
+body.dark {
+  --bg-color: #222;
+  --text-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: 0.3s;
+}
+
+#screen {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  text-align: right;
+  overflow: hidden;
+}
+
+#screen {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  text-align: right;
+  overflow: hidden;
+}
+

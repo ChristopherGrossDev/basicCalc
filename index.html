@@ -8,16 +8,37 @@
     <script defer src = './main.js'></script>
 </head>
 <body>
+    <label class="switch">
+  <input type="checkbox" id="theme-toggle">
+  <span class="slider"></span>
+</label>
+
+
     <div id="calcBody">
-        <div id="screen"></div>
-        <div id="buttons">
-            <div id="operators">
-                <div class="button operator">+</div>
-                <div class="button operator">-</div>
-                <div class="button operator">x</div>
-                <div class="button operator">÷</div>
-            </div>
-        </div>
+  <div id="screen"></div>
+
+  <div id="buttons">
+    <div id="operators">
+      <div class="button operator">+</div>
+      <div class="button operator">-</div>
+      <div class="button operator">*</div>
+      <div class="button operator">/</div>
     </div>
-</body>
-</html>
+
+    <div id="numbers">
+      <div class="button number">7</div>
+      <div class="button number">8</div>
+      <div class="button number">9</div>
+      <div class="button number">4</div>
+      <div class="button number">5</div>
+      <div class="button number">6</div>
+      <div class="button number">1</div>
+      <div class="button number">2</div>
+      <div class="button number">3</div>
+      <div class="button number">0</div>
+      <div class="button number">.</div>
+      <div class="button equal">=</div>
+      <div class="button clear">C</div>
+    </div>
+  </div>
+</div>
